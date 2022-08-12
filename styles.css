@@ -1,0 +1,55 @@
+
+
+
+.Loading{
+    display: grid;
+    position: relative;
+}
+
+
+.Loading img{
+    width: 500px;
+    height: auto;
+    padding-top: 5cm;
+    padding-left: 11cm;
+}
+
+.texto-cargando button h3{
+text-align: center;
+font-family: 'Silkscreen', cursive;
+color: rgb(83, 83, 83);
+}
+
+.container {
+    height: 25px;
+    width: 600px;
+    background-color: #ccc;
+    position: relative;
+    border-radius: 8px;
+}
+
+.container .progress-bar {
+    position: absolute;
+    border-radius: 8px;
+    height: 100%;
+    
+    background-image: url(https://i.ibb.co/7grMtjz/wepa1.jpg);
+    /* background-color: rgb(255, 136, 136); */
+    
+
+}
+
+#play-animation {
+    animation: progress-animation 10s forwards;
+}
+
+@keyframes progress-animation{
+    0% { width: 0%;}
+    100% {width: 100%;}
+}
+
+button{
+    text-align: center;
+    font-family: 'Silkscreen', cursive;
+    color: rgb(83, 83, 83);
+}
